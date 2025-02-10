@@ -1,0 +1,9 @@
+@import '/src/app/variables.scss';
+
+.button {
+    padding: 14px 18px;
+    background-color: $whiteMain;
+    &--size-small {
+        padding: 9px 14px;
+    }
+}

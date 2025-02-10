@@ -1,0 +1,105 @@
+// Palette
+
+//white
+
+$whiteMain: #FFFFFF;
+$white600: #FFFFFFE0;
+$white500: #FFFFFFA3;
+$white400: #FFFFFF66;
+$white300: #FFFFFF24;
+$white200: #FFFFFF17;
+$white100: #FFFFFF0F;
+
+//black
+
+$blackMain: #08091C;
+$black600: #08091CE0;
+$black500: #08091C99;
+$black400: #08091C5C;
+$black300: #08091C1F;
+$black200: #08091C14;
+$black100: #08091C0A;
+
+//pirple
+
+$pirpleMain: #9747FF;
+$pirple800: #7A13FF;
+$pirple700: #8628FF;
+$pirple600: #9747FFE0;
+$pirple500: #9747FF99;
+$pirple400: #9747FF5C;
+$pirple300: #9747FF24;
+$pirple200: #9747FF1A;
+$pirple100: #9747FF0F;
+
+// red
+
+$redMain: #E54545;
+$red800: #E51717;
+$red700: #E52E2E;
+$red600: #E54545E0;
+$red500: #E5454599;
+$red400: #E545455C;
+$red300: #E5454524;
+$red200: #E545451A;
+$red100: #E545450F;
+
+// background-color (light)
+
+$bgPrimary: $whiteMain;
+$bgSecondary: $black100;
+$bgSecondaryHover: $black200;
+$bgSecondaryActive: $black300;
+$bgDiasbled: $black200;
+$bgAccent: $pirpleMain;
+$bgAccentHover: $pirple700;
+$bgAccentActive: $pirple800;
+$bgAccentSubdued: $pirple100;
+$bgAccentSubduedHover: $pirple200;
+$bgAccentSubduedActive: $pirple300;
+$bgCritical: $redMain;
+$bgCriticalHover: $red700;
+$bgCriticalActive: $red800;
+$bgCriticalSubdued: $red100;
+$bgCriticalSubduedHover: $red200;
+$bgCriticalSubduedActive: $red300;
+
+// text (light)
+
+$textPrimary: $blackMain;
+$textSecondary: $black500;
+$textDisabled: $black400;
+$textAccent: $pirpleMain;
+$textAccentHover: $pirple700;
+$textAccentActive: $pirple800;
+$textAccentSubdued: $pirple100;
+$textAccentSubduedHover: $pirple200;
+$textAccentSubduedActive: $pirple300;
+$textCritical: $redMain;
+$textCriticalHover: $red700;
+$textCriticalActive: $red800;
+
+// icon (light)
+
+$iconPrimary: $blackMain;
+$iconSecondary: $black500;
+$iconDisabled: $black400;
+$iconAccent: $pirpleMain;
+$iconAccentHover: $pirple700;
+$iconAccentActive: $pirple800;
+$iconAccentSubdued: $pirple100;
+$iconAccentSubduedHover: $pirple200;
+$iconAccentSubduedActive: $pirple300;
+$iconCritical: $redMain;
+$iconCriticalHover: $red700;
+$iconCriticalActive: $red800;
+
+// border (light)
+
+$borderPrimary: $black300;
+$borderSecondary: $black200;
+$borderFocus: $blackMain;
+$borderAccent: $pirpleMain;
+$borderAccentHover: $pirple700;
+$borderAccentActive: $pirple800;
+$borderCritical: $redMain;

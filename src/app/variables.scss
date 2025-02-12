@@ -103,3 +103,31 @@ $borderAccent: $pirpleMain;
 $borderAccentHover: $pirple700;
 $borderAccentActive: $pirple800;
 $borderCritical: $redMain;
+
+// fonts 
+
+$fontFamilyMain: 'Inter';
+$fontH1: 700 #{36px} / #{120%} $fontFamilyMain;
+$fontH2: 700 #{32px} / #{120%} $fontFamilyMain;
+$fontH3: 700 #{24px} / #{120%} $fontFamilyMain;
+$fontH4: 700 #{18px} / #{120%} $fontFamilyMain;
+$fontH5: 700 #{16px} / #{120%} $fontFamilyMain;
+
+$fontP1: 500 #{24px} / #{120%} $fontFamilyMain;
+$fontP2: 500 #{18px} / #{120%} $fontFamilyMain;
+$fontP3: 400 #{16px} / #{120%} $fontFamilyMain;
+$fontP4: 500 #{16px} / #{120%} $fontFamilyMain;
+$fontP5: 400 #{14px} / #{120%} $fontFamilyMain;
+$fontP6: 500 #{14px} / #{120%} $fontFamilyMain;
+$fontP7: 400 #{12px} / #{120%} $fontFamilyMain;
+$fontP8: 500 #{12px} / #{120%} $fontFamilyMain;
+$fontP9: 400 #{10px} / #{120%} $fontFamilyMain;
+$fontP10: 500 #{10px} / #{120%} $fontFamilyMain;
+
+//radius
+
+$border-radius-1920px: 8px;
+$border-radius-1440px: 8px;
+$border-radius-1024px: 6px;
+$border-radius-768px: 4px;
+$border-radius-375px: 4px;

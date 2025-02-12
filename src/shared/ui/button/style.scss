@@ -1,9 +1,120 @@
 @import '/src/app/variables.scss';
 
 .button {
+    display: flex;
+    align-items: center;
     padding: 14px 18px;
-    background-color: $whiteMain;
-    &--size-small {
-        padding: 9px 14px;
-    }
-}
+    background-color: $pirpleMain;
+    color: $whiteMain;
+    border-radius: $border-radius-1920px;
+    border: none;
+    font: $fontP4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+        &--size-medium {
+            padding: 12px 16px;
+            font: $fontP6;
+            border-radius: $border-radius-1024px;
+        }
+        &--size-small {
+            padding: 9px 14px;
+            font: $fontP8;
+            border-radius: $border-radius-768px;
+        }
+        &--size-xs {
+            padding: 7px 12px;
+            font: $fontP10;
+            border-radius: $border-radius-768px;
+        }
+        &:hover {
+            background-color: $pirple700;
+        }
+        &:disabled {
+            background-color: $black200;
+            cursor: not-allowed;
+        }
+        &:active {
+            background-color: $pirple800;
+        }
+        &--rounded {
+            border-radius: 64px;
+        }
+        &--mini {
+            padding: 14px;
+        }
+        &--mini.button--size-medium {
+            padding: 12px;
+        }
+        &--mini.button--size-small {
+            padding: 9px;
+        }
+        &--mini.button--size-xs {
+            padding: 7px;
+        }
+        &--variant-light {
+            background-color: $pirple100;
+            color: $pirpleMain;
+        }
+        &--variant-light:hover {
+            background-color: $pirple200;
+        }
+        &--variant-light:active {
+            background-color: $pirple300;
+        }
+        &--variant-light:disabled {
+            background-color: $black200;
+            color: $black400;
+        }
+        &--variant-superLight {
+            background-color: transparent;
+            color: $pirpleMain;
+        }
+        &--variant-superLight:hover {
+            background-color: transparent;
+            color: $pirple700;
+        }
+        &--variant-superLight:active {
+            background-color: transparent;
+            color: $pirple800;
+        }
+        &--variant-superLight:disabled {
+            background-color: transparent;
+            color: $black400;
+        }
+        &--variant-danger {
+            background-color: $redMain;
+            color: $whiteMain;
+        }
+        &--variant-danger:hover {
+            background-color: $red700;
+            color: $whiteMain;
+        }
+        &--variant-danger:active {
+            background-color: $red800;
+            color: $whiteMain;
+        }
+        &--variant-danger:disabled {
+            background-color: $black200;
+            color: $black400;
+        }
+        &--variant-lightDanger {
+            background-color: $red100;
+            color: $redMain;
+        }
+        &--variant-lightDanger:hover {
+            background-color: $red200;
+            color: $red700;
+        }
+        &--variant-lightDanger:active {
+            background-color: $red300;
+            color: $red800;
+        }
+        &--variant-lightDanger:disabled {
+            background-color: $black200;
+            color: $black400;
+        }
+        &--size-medium.button__icon {
+            width: 16px;
+            height: 16px;
+        }
+}   
